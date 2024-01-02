@@ -5,3 +5,9 @@
 plugins {
     id("playground.kotlin-library-conventions")
 }
+
+dependencies {
+    testImplementation("com.natpryce:hamkrest:1.8.0.1")
+    testImplementation("io.strikt:strikt-core:0.34.0")
+    testImplementation("io.kotest:kotest-assertions-core-jvm:5.7.2")
+}
